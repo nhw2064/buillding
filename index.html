@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title> 63빌딩 ㅣ 63BUILDING </title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/fullpage.css">
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="js/html5shiv.min.js"></script>
+    <![endif]-->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/fullpage.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#fullpage').fullpage({
+                navigation: true,
+                navigationPosition: 'right',
+                navigationTooltips: ['PLEASURE', 'INNOVATION', 'ABOUT63', 'FESTIVAL', 'FOOTER'],
+                scrollBar: true //스크롤바 보여지기
+            });
+        });
+    </script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+            <h1 class="logo"><a href="">63빌딩</a></h1>
+            <button type="button" class="open_btn">
+                <span class="blind">전체메뉴열기</span>
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </button>
+            <nav id="gnb">
+                <h2 class="blind">주메뉴</h2>
+                <div class="logo2" aria-hidden="true">63</div>
+                <ul class="gnb">
+                    <li><a href="">PLEASUER</a></li>
+                    <li><a href="">INNOVATION</a></li>
+                    <li><a href="">ABOUT63</a></li>
+                    <li><a href="">FESTIVAL</a></li>
+                </ul>
+                <ul class="util">
+                    <li><a href="">NOW ON</a></li>
+                    <li><a href="">찾아오시는길</a></li>
+                    <li><a href="">입주사 안내</a></li>
+                    <li><a href="">63온라인몰</a></li>
+                </ul>
+                <button type="button" class="close_btn">전체메뉴닫기</button>
+            </nav>
+
+        </header>
+        <div id="fullpage">
+            <section id="content1" class="section cnt">
+                <div class="area">
+                    <h3 class="anitxt">Pleasure</h3>
+                    <p class="anitxt">무지개빛<strong>당신의 하루</strong></p>
+                    <span class="anitxt">쇼핑, 관람·문화, 레스토랑, 연회·웨딩 등<br><br>
+                        <em>볼 거리 즐길 거리가 가득합니다</em></span>
+                    <div class="anitxt">
+                        <a href="">알아보기</a>
+                    </div>
+                    <div class="icon_wheel">
+                        <span class="top"></span>
+                        <span class="btm"></span>
+                    </div>
+                </div>
+            </section>
+            <section id="content2" class="section cnt">
+                <div class="area">
+                    <h3 class="anitxt">Innovation</h3>
+                    <p class="anitxt">새로운 꿈이<strong>현실이 되는 곳</strong></p>
+                    <span class="anitxt">다양한 기업이 꿈을 키워 나가는 곳<br><br>
+                        <em>혁신의 시작을 함께하는 곳, 63입니다.</em></span>
+                    <div class="anitxt">
+                        <a href="">알아보기</a>
+                    </div>
+                    <div class="icon_wheel">
+                        <span class="top"></span>
+                        <span class="btm"></span>
+                    </div>
+                </div>
+            </section>
+            <section id="content3" class="section cnt">
+                <div class="area">
+                    <h3 class="anitxt">About 63</h3>
+                    <p class="anitxt">아름다운 한강변에 반사되는<strong>금빛 파사드</strong></p>
+                    <span class="anitxt">1985년 완공 이후 서울을 대표하는 상징적인 건축물로<br><br>
+                        <em>햇빛에 따라 반사되는 금빛 외관이 인상적입니다</em></span>
+                    <div class="anitxt">
+                        <a href="">알아보기</a>
+                    </div>
+                    <div class="icon_wheel">
+                        <span class="top"></span>
+                        <span class="btm"></span>
+                    </div>
+                </div>
+            </section>
+            <section id="content4" class="section cnt">
+                <div class="area">
+                    <h3 class="anitxt">Festival</h3>
+                    <p class="anitxt">우리가 함께 할<strong>감동의 순간들</strong></p>
+                    <span class="anitxt">봄 내음 가득한 벚꽃축제, 가을하늘을 수놓은 불꽃축제가<br><br>
+                        <em>빛나는 추억의 순간으로 함께합니다</em></span>
+                    <div class="anitxt">
+                        <a href="">알아보기</a>
+                    </div>
+                    <div class="icon_wheel">
+                        <span class="top"></span>
+                        <span class="btm"></span>
+                    </div>
+                </div>
+            </section>
+            <div class="section fp-auto-height">
+                <footer id="footer">
+                    <div class="left f_l">
+                        <address>서울시 영등포구 63로 50 (여의도동, 63 한화생명빌딩) 한화생명보험 주식회사 대표이사 차남규 대표전화 1588.6363, 해외
+                            82.2.2169.0899</address>
+                        <p>COPYRIGHT© 2017 HANWHALIFE. ALL RIGHTS RESERVED.</p>
+                    </div>
+                    <div class="right f_r">
+                        <ul>
+                            <li><a href="" target="_blank">회사소개</a></li>
+                            <li><a href="" target="_blank">입주사안내</a></li>
+                            <li><a href="" target="_blank">사이트맵</a></li>
+                        </ul>
+                        <a href="" class="site" role="button">Family Site</a>
+                        <a href="" class="go"></a>
+                    </div>
+            </div>
+            </footer>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
